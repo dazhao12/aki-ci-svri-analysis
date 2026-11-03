@@ -142,7 +142,7 @@ def make_candidates(d):
     return [
       ('age','年龄','Age',(d.Age>=65).astype(int),None,['<65','≥65']),
       ('sex','性别','Sex',d.Male,'Male',['Female','Male']),
-      ('bmi','BMI','BMI',(d.BMI>=24).astype(int),None,['<24','≥24']),
+      ('bmi','BMI','BMI',(d.BMI>=28).astype(int),None,['<28','≥28']),
       ('hypertension','高血压','Hypertension',d.Hypertension,'Hypertension',['No','Yes']),
       ('diabetes','糖尿病','Diabetes',d.Diabetes,'Diabetes',['No','Yes']),
       ('egfr','肾功能','eGFR',(d.eGFR<60).astype(int),None,['≥60','<60']),

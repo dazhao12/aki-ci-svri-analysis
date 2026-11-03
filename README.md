@@ -19,7 +19,7 @@ An analysis-ready CSV must contain one row per participant (the adopted study co
 
 CI is in L/min/m²; SVRI in dyn·s·cm⁻⁵·m²; age in years; BMI in kg/m²; eGFR in mL/min/1.73 m²; Hb in g/L; LVEF in %. Binary covariates use 0/1, with male=1, current/former smoking=1, condition present=1, and trial intervention=1. AKI_7d is the author-confirmed creatinine-based outcome within seven postoperative days. eGFR is the author-confirmed 2021 CKD-EPI value. This repository starts from those prepared inputs; it does not implement access to source hospital records or outcome adjudication.
 
-The primary normal ranges are CI 2.5–4.0 and SVRI 2000–2400 (inclusive). Sensitivity models use CI lower bound 2.2 or SVRI limits 1970–2390. Subgroups use age 65, BMI 24, eGFR 60 and LVEF 50; other subgroup variables are binary. Continuous age remains in the age-interaction model. Firth estimates use profile-likelihood intervals and constrained full-model penalised likelihood-ratio tests. Standardised risks use the delta method. Interaction tests are exploratory and not multiplicity-adjusted.
+The primary normal ranges are CI 2.5–4.0 and SVRI 2000–2400 (inclusive). Sensitivity models use CI lower bound 2.2 or SVRI limits 1970–2390. Subgroups use age 65, BMI 28 kg/m² (Chinese adult obesity threshold), eGFR 60 and LVEF 50; other subgroup variables are binary. Age and BMI retain their continuous adjustments in the respective interaction models. Firth estimates use profile-likelihood intervals and constrained full-model penalised likelihood-ratio tests. Standardised risks use the delta method. Interaction tests are exploratory and not multiplicity-adjusted.
 
 ## Scope and provenance
 
