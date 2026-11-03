@@ -1,0 +1,52 @@
+{
+  "source_symbols": {
+    "recalculate_aki_mahajan_20261001.py": {
+      "sha256": "97cacf4a750088f01b663f474e9041ccb3aecefb387b0ab68af3aff47d820013",
+      "symbols": [
+        "ORDER",
+        "PROFILE"
+      ]
+    },
+    "co_aki_reanalysis.py": {
+      "sha256": "4dc10997b474eee9d345799321adc821d7c548723ceeb25d2b6a8ef9cccc48b9",
+      "symbols": [
+        "CORE_COVARIATES"
+      ]
+    },
+    "analyze_intraop_ci_svri_state_burden_v1.py": {
+      "sha256": "573fd37aaa34f4f40b7e90249a4b70889803f8107eb8d9f5d1c3d6758b0b6344",
+      "symbols": [
+        "PREOP_TERMS"
+      ]
+    },
+    "check_aki_subgroups_firth_20261001.py": {
+      "sha256": "3a23d06407b3180273c512c0381a5717eb3e8695c18df3f3ecd73267850bff0e",
+      "symbols": [
+        "restricted_test"
+      ]
+    },
+    "adopt_aki_firth_20261008.py": {
+      "sha256": "11fe99169bcfe0c2acae0de644fb2c124724b81b8da2f0096c72dd0fa79b559e",
+      "symbols": [
+        "fit",
+        "effects",
+        "basis"
+      ]
+    },
+    "adopt_aki_mahajan_analysis_20261005.py": {
+      "sha256": "43b1a9385dc8268c214fe0ca4e1a993a92de0f08855f82f8239780303e91c642",
+      "symbols": [
+        "classify"
+      ]
+    },
+    "table_aki_full_firth_20261008.py": {
+      "sha256": "3dd0b6af2f524a5a7117c8387dfe32c06af142efee97dc7174b236c98c0dc406",
+      "symbols": [
+        "SPECS",
+        "LABELS",
+        "collect"
+      ]
+    }
+  },
+  "scope": "Adopted statistical estimation functions; portable entry point; no participant data"
+}

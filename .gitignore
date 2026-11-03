@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+data/
+results/
+*.csv
+*.xlsx
+*.parquet
+*.docx
+*.pptx
+.env*
